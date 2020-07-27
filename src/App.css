@@ -1,0 +1,197 @@
+.col-lg-2 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+.col-lg-3 {
+  padding-right: auto;
+  padding-left: auto;
+}
+.col-lg-3 {
+  padding-right: auto;
+  padding-left: auto;
+}
+
+.card {
+  height: fit-content;
+  width: fit-content;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: auto;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  min-width: 170px;
+  position: relative;
+  height: 80px;
+  width: fit-content;
+  padding: 0.5px;
+  background: rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+.card1 i {
+  position: absolute;
+  left: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.fa {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.card1 .card_column_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 14px;
+  margin-left: 12px;
+  box-sizing: border-box;
+}
+.card1 .card_column_two {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card_column_1 {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+.card1 .card_column_one .column_dollar {
+  color: #00b7ff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.card1 .card_column_one .column_aadr {
+  margin-bottom: -25px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.card1 .card_column_two .col_ishares {
+  color: #a8bd84;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.card1 .card_column_two .col_blackdoc {
+  font-size: 0.6rem;
+}
+.card1 .card_column_two .col_sp {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.card1 .card_column_two .col_equity {
+  font-size: 0.7rem;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  min-width: 220px;
+  height: 80px;
+  margin-left: auto;
+}
+.card2 .quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.card2 .quantity-left i {
+  width: 25px;
+  padding-right: 10px;
+}
+
+.card2 .quantity .span_column_two {
+  font-weight: bold;
+}
+.card2 .avg-cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.card2 .avg-cost-left i {
+  width: 25px;
+  padding-right: 10px;
+}
+.card2 .avg-cost .span_column_two_avg_cost {
+  font-weight: bold;
+}
+.card2 .invest-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.card2 .invest-amount-left i {
+  width: 25px;
+  padding-right: 10px;
+}
+
+.card2 .invest-amount .span_column_two_money {
+  font-weight: bold;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  min-width: 220px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card3 .market-value {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.card3 .portifolio {
+  display: flex;
+  justify-content: space-between;
+}
+.card3 .portifolio-value {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.card3 .portifolio-value-tag {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  min-width: 220px;
+  height: 80px;
+}
